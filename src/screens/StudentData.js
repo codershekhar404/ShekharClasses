@@ -8,7 +8,7 @@ const StudentData = () => {
   const getUserData = async () => {
     try {
       const res = await fetch(
-        "https://shekhar404.github.io/data/StudentsData.json"
+        "https://codershekhar404.github.io/data/StudentsData.json"
       );
       const actualData = await res.json();
       setMyData(actualData);
